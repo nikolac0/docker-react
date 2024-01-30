@@ -10,8 +10,8 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: us-east-1
-  name: "frontend"
+  region: "us-east-1"
+  app: "frontend"
   env: "Frontend-env"
   bucket_name: elasticbeanstalk-us-east-1-739949737839
   bucket_path: "frontend"
